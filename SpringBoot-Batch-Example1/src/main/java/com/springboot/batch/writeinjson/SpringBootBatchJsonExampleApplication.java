@@ -20,6 +20,7 @@ public class SpringBootBatchJsonExampleApplication {
 		JobParametersBuilder builder = new JobParametersBuilder();
 		builder.addParameter("prodPath", new JobParameter("ProdDBJsonFile/product.json"));
 		builder.addDate("date", new Date());
+		//trigger Object Internally Call JobBuilderFactory mentioned in SpringBatchConfig Class file and also JobParameters
 		trigger.runJobs(builder.toJobParameters());
 	}
 
