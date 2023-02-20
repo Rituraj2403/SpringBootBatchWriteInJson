@@ -116,3 +116,12 @@ public class SpringBatchConfig {
     }
 
 }
+
+//jobParameters  is properties files automatic build
+
+
+//Note:--
+//Name of DTO in interface give as from developer point of view :--
+// it help to understand interface work easy as we need DTO help to easily distinguish steps because earlier any name interface bind to any DTO so Difficult know, 
+
+//secondly DTO is common between Class and Interface so reusable led to save memory also. as Business Point Of View
